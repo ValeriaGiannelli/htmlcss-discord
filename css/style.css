@@ -195,18 +195,12 @@ div{
     .final-info{
         display: flex;
         justify-content: center;
-        align-items: stretch;
-        /* DEBUG */
-        /* height: 700px; */
-        background-color: rgb(147, 144, 144);
+        background-color: #f6f6f6;
     }
 
     .final-info div{
         margin: 40px 0;
         text-align: center;
-
-        /* DEBUG */
-        background-color: green;
     }
 
     .img-dimostrativa{
@@ -245,9 +239,6 @@ footer{
     width: 70%;
     margin: 0 auto;
     padding-top: 40px;
-    
-    /* debug */
-    background-color: white;
 }
 
 .container-flex-footer{
@@ -256,10 +247,32 @@ footer{
 
 .social{
     width: calc(100% / 3);
-
-    /* DEBUG */
-    background-color: rosybrown;
 }
+
+.social h2{
+    color: #939de1;
+}
+
+.social img{
+    width: 5%;
+}
+
+.social>span, .social>i{
+    color: white;
+    font-size: 12px;
+}
+
+.icon-social{
+    color: white;
+    padding-top: 10px;
+    justify-content: start;
+    gap: 20px;
+}
+
+.icon-social i{
+
+}
+
 
 .link-utili{
     width: calc(100% / 6);
