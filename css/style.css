@@ -143,8 +143,6 @@ div{
 
     /* sfondo */
     .odd{
-        align-items: stretch;
-
         /* DEBUG */
         height: 450px;
     }
@@ -167,12 +165,22 @@ div{
         background-color: rgb(46, 111, 181);
     }
 
+    .imagine img{
+        width: 80%;
+    }
+
     .text{
         width: 40%;
         height: 100%;
+        color: #23272a;
 
         /* DEBUG */
         background-color: rgb(255, 196, 207);
+    }
+
+    .text p{
+        line-height: 22px;
+        
     }
 
     /* regole file pari */
