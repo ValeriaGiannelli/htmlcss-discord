@@ -231,7 +231,6 @@ div{
 
 footer{
     background-color: #23272a;
-    height: 400PX;
 }
 
 .info-generali{
@@ -251,6 +250,7 @@ footer{
 
 .social h2{
     color: #939de1;
+    margin-top: 0;
 }
 
 .social img{
@@ -272,9 +272,6 @@ footer{
 
 .link-utili{
     width: calc(100% / 6);
-
-    /* DEBUG */
-    background-color: rgb(65, 165, 165);
 }
 
 .link-utili h4{
