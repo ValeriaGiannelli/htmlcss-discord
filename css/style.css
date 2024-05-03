@@ -96,7 +96,7 @@ div{
         min-height: 400px;
         display: flex;
         justify-content: center;
-        align-items: stretch;
+        align-items: center;
         background-image: url(../img/jumbo.png);
         background-size: cover;
         background-position: center;
@@ -122,6 +122,12 @@ div{
     .header-description p {
         line-height: 22px;
         font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .bottoni-corpo-pagina{
+        padding: 10px 20px;
+        margin: 0 10px;
     }
 
 /* regole main */
