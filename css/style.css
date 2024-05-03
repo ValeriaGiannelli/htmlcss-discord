@@ -142,9 +142,8 @@ div{
     /* regole file dispari */
 
     /* sfondo */
-    .odd{
-        /* DEBUG */
-        height: 450px;
+    .container-flex-row{
+        align-items: start;
     }
 
     .odd div{
@@ -160,9 +159,6 @@ div{
     .imagine{
         width: 60%;
         height: 100%;
-
-        /* DEBUG */
-        background-color: rgb(46, 111, 181);
     }
 
     .imagine img{
@@ -173,9 +169,6 @@ div{
         width: 40%;
         height: 100%;
         color: #23272a;
-
-        /* DEBUG */
-        background-color: rgb(255, 196, 207);
     }
 
     .text p{
@@ -185,16 +178,16 @@ div{
 
     /* regole file pari */
     .even{
-        align-items: stretch;
-
-        /* DEBUG */
-        background-color: rgb(147, 144, 144);
-        height: 450px;
+        background-color:#f6f6f6;
     }
 
     .even div{
         margin: 40px 0;
         min-height: 200px;
+    }
+
+    .imagine-even{
+        text-align: end;
     }
 
 
