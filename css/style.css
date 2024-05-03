@@ -99,6 +99,7 @@ div{
         align-items: stretch;
         background-image: url(../img/jumbo.png);
         background-size: cover;
+        background-position: center;
     }
     
     /* parte di posizione del testo */
