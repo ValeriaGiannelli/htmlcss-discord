@@ -269,16 +269,25 @@ footer{
     gap: 20px;
 }
 
-.icon-social i{
-
-}
-
 
 .link-utili{
     width: calc(100% / 6);
 
     /* DEBUG */
     background-color: rgb(65, 165, 165);
+}
+
+.link-utili h4{
+    color: #939de1;
+}
+
+ul{
+    list-style-type: none;
+    line-height: 25px;
+}
+
+a.link-col-footer{
+    font-size: 14px;
 }
 
 .link-finali{
