@@ -33,7 +33,7 @@ div{
     /* parte di sfondo */
     .header-nav{
         height: 50px;
-        background-color: #4753df;
+        background-color: #255ee9;
     }
 
     /* container del logo - link - login */
@@ -93,12 +93,12 @@ div{
 
     /* parte di sfondo */
     .header-description{
-        height: 350px;
+        min-height: 400px;
         display: flex;
         justify-content: center;
         align-items: stretch;
-        /* DEBUG */
-        background-color: blue;
+        background-image: url(../img/jumbo.png);
+        background-size: cover;
     }
     
     /* parte di posizione del testo */
