@@ -68,6 +68,7 @@ div{
         background-color: white;
         padding: 7px;
         border-radius: 20px;
+
     }
 
 
@@ -109,9 +110,6 @@ div{
         text-align: center;
         color: white;
         padding-top: 20px;
-
-        /* DEBUG */
-        background-color: plum;
     }
 
     h1{
@@ -128,6 +126,15 @@ div{
     .bottoni-corpo-pagina{
         padding: 10px 20px;
         margin: 0 10px;
+    }
+
+    .bottoni-corpo-pagina i{
+        margin-right: 5px;
+    }
+
+    .bottone-black{
+        background-color: #23272a;
+        color: white;
     }
 
 /* regole main */
