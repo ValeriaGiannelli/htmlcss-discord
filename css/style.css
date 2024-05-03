@@ -106,6 +106,7 @@ div{
     .header-description div{
         margin: 40px 0;
         width: 50%;
+        text-align: center;
 
         /* DEBUG */
         background-color: plum;
