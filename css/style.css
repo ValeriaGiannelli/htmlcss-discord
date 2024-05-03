@@ -15,6 +15,10 @@
     align-items: center;
 }
 
+body{
+    font-family: 'Whitney', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
 /* DEBUG */
 div{
     border: 1px dotted black;
@@ -29,8 +33,7 @@ div{
     /* parte di sfondo */
     .header-nav{
         height: 50px;
-        /* DEBUG */
-        background-color: aquamarine;
+        background-color: #4753df;
     }
 
     /* container del logo - link - login */
@@ -44,9 +47,30 @@ div{
         width: 20%;
     }
 
+    /* disposizione logo nel menu */
+    .position-logo{
+        padding-top: 10px;
+        width: 20%;
+        justify-content: start;
+    }
+
+    .position-logo img{
+        width: 75%;
+    }
+
+    /* bottone accedi in alto */
     .login{
         text-align: end;
     }
+
+    .bottoni{
+        color: black;
+        background-color: white;
+        padding: 7px;
+        border-radius: 20px;
+    }
+
+
 
     /* dimensioni per la parte dei link */
     nav{
@@ -56,11 +80,13 @@ div{
     /* impostazione dei link */
     header nav ul{
         list-style-type: none;
-        gap:10px;
+        gap:30px;
     }
 
     a{
         text-decoration: none;
+        color: white;
+        font-size: 12px;
     }
 
     /* regole descrizione */
