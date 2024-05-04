@@ -1,0 +1,336 @@
+/* regole generali */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-dimension{
+    width: 70%;
+}
+
+.container-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    font-family: 'Whitney', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* DEBUG */
+/* div{
+    border: 1px dotted black;
+} */
+
+
+
+/* regole header */
+
+    /* regole menu navigazione */
+
+    /* parte di sfondo */
+    .header-nav{
+        height: 50px;
+        background-color: #255ee9;
+    }
+
+    /* container del logo - link - login */
+    .nav-disposition{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* dimensioni per logo e login */
+    .position{
+        width: 20%;
+    }
+
+    /* disposizione logo nel menu */
+    .position-logo{
+        padding-top: 10px;
+        width: 20%;
+        justify-content: start;
+    }
+
+    .position-logo img{
+        width: 75%;
+    }
+
+    /* bottone accedi in alto */
+    .login{
+        text-align: end;
+    }
+
+    .bottoni{
+        color: black;
+        background-color: white;
+        padding: 7px;
+        border-radius: 20px;
+
+    }
+
+
+
+    /* dimensioni per la parte dei link */
+    nav{
+        width: 60%;
+    }
+
+    /* impostazione dei link */
+    header nav ul{
+        list-style-type: none;
+        gap:30px;
+    }
+
+    a{
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+    }
+
+    /* regole descrizione */
+
+    /* parte di sfondo */
+    .header-description{
+        min-height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(../img/jumbo.png);
+        background-size: cover;
+        background-position: center;
+    }
+    
+    /* parte di posizione del testo */
+    .header-description div{
+        margin: 40px 0;
+        width: 50%;
+        text-align: center;
+        color: white;
+        padding-top: 20px;
+    }
+
+    h1{
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    .header-description p {
+        line-height: 22px;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .bottoni-corpo-pagina{
+        padding: 10px 20px;
+        margin: 0 10px;
+    }
+
+    .bottoni-corpo-pagina i{
+        margin-right: 5px;
+    }
+
+    .bottone-black{
+        background-color: #23272a;
+        color: white;
+    }
+
+/* regole main */
+
+    /* regole file dispari */
+
+    /* sfondo */
+    .container-flex-row{
+        align-items: start;
+    }
+
+    .odd{
+        flex-wrap: wrap;
+    }
+
+    .odd div{
+        margin: 40px 0;
+    }
+
+    /* DEBUG */
+    .container-height{
+        height: 80%;
+    }
+
+    .imagine{
+        width: 60%;
+        height: 100%;
+    }
+
+    .imagine img{
+        width: 80%;
+    }
+
+    .text{
+        width: 40%;
+        height: 100%;
+        color: #23272a;
+    }
+
+    .text p{
+        line-height: 22px;
+        
+    }
+
+    /* regole file pari */
+
+    .even{
+        background-color:#f6f6f6;
+        flex-wrap: wrap;
+    }
+
+    .even div{
+        margin: 40px 0;
+    }
+
+    div.waves-up-gray{
+        width: 100%;
+        /* DEBUG */
+        background-color: white;
+        background-image: url(../img/wave.svg);
+        height: 80PX;
+        margin: 0;
+    }
+
+    div.waves-down-gray{
+        width: 100%;
+        /* DEBUG */
+        background-color: white;
+        background-image: url(../img/wave.svg);
+        height: 80PX;
+        margin-bottom: 0;
+        transform: rotate(180deg);
+    }
+
+ 
+
+  
+
+    .imagine-even{
+        text-align: end;
+    }
+
+
+    /* regole informazioni finali */
+    .final-info{
+        display: flex;
+        justify-content: center;
+        background-color: #f6f6f6;
+    }
+
+    .final-info div{
+        margin: 60px 0;
+        text-align: center;
+    }
+
+    .img-dimostrativa{
+        width: 100%;
+    }
+
+    #frase-finale{
+        width: 50%;
+        margin: 0 auto;
+        background-image: url(../img/stars.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    h2{
+        color: #23272a;
+        padding: 30px 0;
+    }
+
+    .bottone-azzurro{
+        color: white;
+        background-color: #939de1;
+    }
+
+
+
+/* regole footer */
+
+footer{
+    background-color: #23272a;
+}
+
+.info-generali{
+    height: 80%;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.container-flex-footer{
+    display: flex;
+}
+
+.social{
+    width: calc(100% / 3);
+}
+
+.social h2{
+    color: #939de1;
+    margin-top: 0;
+}
+
+.social img{
+    width: 5%;
+}
+
+.social>span, .social>i{
+    color: white;
+    font-size: 12px;
+}
+
+.icon-social{
+    color: white;
+    padding-top: 10px;
+    justify-content: start;
+    gap: 20px;
+}
+
+
+.link-utili{
+    width: calc(100% / 6);
+}
+
+.link-utili h4{
+    color: #939de1;
+}
+
+ul{
+    list-style-type: none;
+    line-height: 25px;
+}
+
+a.link-col-footer{
+    font-size: 14px;
+}
+
+.container-flex-footer-bottom{
+    align-items: center;
+}
+
+.link-finali{
+    width: 70%;
+    margin: 0 auto;
+    border-top: 1px solid #939de1;
+    padding-top: 10px;
+    margin-top: 20px;
+    padding-bottom: 40px;
+}
+
+.link-finali div{
+    width: 50%;
+}
+
+.registrati{
+    text-align: end;
+}
