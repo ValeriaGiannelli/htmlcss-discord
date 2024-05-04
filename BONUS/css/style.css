@@ -68,9 +68,11 @@ body{
         background-color: white;
         padding: 7px;
         border-radius: 20px;
-
     }
 
+    .bottoni:hover{
+        box-shadow: 0 8px 5px rgba(0, 0, 0, .2);
+    }
 
 
     /* dimensioni per la parte dei link */
@@ -192,7 +194,6 @@ body{
 
     div.waves-up-gray{
         width: 100%;
-        /* DEBUG */
         background-color: white;
         background-image: url(../img/wave.svg);
         height: 80PX;
@@ -201,7 +202,6 @@ body{
 
     div.waves-down-gray{
         width: 100%;
-        /* DEBUG */
         background-color: white;
         background-image: url(../img/wave.svg);
         height: 80PX;
