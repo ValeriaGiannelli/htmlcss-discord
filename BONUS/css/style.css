@@ -74,6 +74,10 @@ body{
         box-shadow: 0 8px 5px rgba(0, 0, 0, .2);
     }
 
+    .header-nav .bottoni:hover{
+        color: #939de1;
+    }
+
 
     /* dimensioni per la parte dei link */
     nav{
@@ -141,6 +145,10 @@ body{
 
     .bottoni-corpo-pagina i{
         margin-right: 5px;
+    }
+
+    [class="bottoni bottoni-corpo-pagina"]:hover{
+        color: #939de1;
     }
 
     .bottone-black{
