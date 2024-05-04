@@ -364,3 +364,7 @@ a.link-col-footer{
 .registrati{
     text-align: end;
 }
+
+.registrati .bottone-azzurro:hover{
+    background-color: #b2b7db;
+}
