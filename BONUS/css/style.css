@@ -96,6 +96,11 @@ body{
         cursor: pointer;
     }
 
+    li:hover{
+        text-decoration: underline;
+        color:white
+    }
+
     /* regole descrizione */
 
     /* parte di sfondo */
